@@ -1,11 +1,10 @@
-
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Star, Minus, Plus, ShoppingCart, Heart, ChevronRight, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { toast } from "@/components/ui/toast";
+import { useToast } from "@/hooks/use-toast";
 import { products } from "@/data/products";
 import { useCart } from "@/hooks/useCart";
 import ProductCard from "@/components/ProductCard";
@@ -14,6 +13,7 @@ const ProductDetail = () => {
   const { id } = useParams<{ id: string }>();
   const product = products.find(p => p.id === id);
   const { addToCart } = useCart();
+  const { toast } = useToast();
   
   const [quantity, setQuantity] = useState(1);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
@@ -66,14 +66,12 @@ const ProductDetail = () => {
     });
   };
   
-  // Related products - same category but not the current product
   const relatedProducts = products
     .filter(p => p.category === product.category && p.id !== product.id)
     .slice(0, 4);
 
   return (
     <div className="container mx-auto px-4 py-8">
-      {/* Breadcrumb */}
       <div className="flex items-center text-sm text-gray-500 mb-8">
         <Link to="/" className="hover:text-sauce-red transition-colors">Home</Link>
         <ChevronRight size={16} className="mx-2" />
@@ -87,7 +85,6 @@ const ProductDetail = () => {
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
-        {/* Product Images */}
         <div>
           <div className="mb-4 aspect-square overflow-hidden rounded-xl bg-gray-100">
             <img 
@@ -115,7 +112,6 @@ const ProductDetail = () => {
           </div>
         </div>
         
-        {/* Product Info */}
         <div>
           <div className="flex items-start justify-between mb-2">
             <div>
@@ -148,7 +144,6 @@ const ProductDetail = () => {
             </Button>
           </div>
           
-          {/* Price */}
           <div className="mb-6">
             {product.onSale ? (
               <div className="flex items-center">
@@ -167,7 +162,6 @@ const ProductDetail = () => {
             <p className="text-gray-700">{product.shortDescription}</p>
           </div>
           
-          {/* Spice Level */}
           <div className="mb-6">
             <h3 className="font-medium mb-2">Spice Level</h3>
             <div className="flex">
@@ -193,7 +187,6 @@ const ProductDetail = () => {
           
           <Separator className="my-6" />
           
-          {/* Add to Cart Section */}
           <div className="mb-6">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center border rounded-full">
@@ -242,7 +235,6 @@ const ProductDetail = () => {
         </div>
       </div>
       
-      {/* Product Details Tabs */}
       <Tabs defaultValue="description" className="mb-16">
         <TabsList className="mb-6">
           <TabsTrigger value="description">Description</TabsTrigger>
@@ -339,7 +331,6 @@ const ProductDetail = () => {
         </TabsContent>
       </Tabs>
       
-      {/* Related Products */}
       {relatedProducts.length > 0 && (
         <div className="mb-16">
           <h2 className="text-2xl font-bold mb-6">You May Also Like</h2>

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Trash2, Plus, Minus, ShoppingBag, ArrowRight } from "lucide-react";
@@ -6,13 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Input } from "@/components/ui/input";
 import { useCart } from "@/hooks/useCart";
-import { toast } from "@/components/ui/toast";
+import { useToast } from "@/hooks/use-toast";
 
 const Cart = () => {
   const navigate = useNavigate();
   const { items, updateQuantity, removeFromCart, clearCart, totalPrice } = useCart();
   const [promoCode, setPromoCode] = useState("");
   const [isApplyingPromo, setIsApplyingPromo] = useState(false);
+  const { toast } = useToast();
   
   const shipping = totalPrice > 50 ? 0 : 5.99;
   const tax = totalPrice * 0.08;

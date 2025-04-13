@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Star, ShoppingCart, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { toast } from "@/components/ui/toast";
+import { useToast } from "@/hooks/use-toast";
 import { Product } from "@/types/product";
 import { useCart } from "@/hooks/useCart";
 
@@ -14,6 +14,7 @@ interface ProductCardProps {
 const ProductCard = ({ product }: ProductCardProps) => {
   const { addToCart } = useCart();
   const [isWishlist, setIsWishlist] = useState(false);
+  const { toast } = useToast();
   
   const handleAddToCart = () => {
     addToCart(product);
