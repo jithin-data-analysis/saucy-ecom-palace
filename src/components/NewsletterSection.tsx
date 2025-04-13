@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Send } from "lucide-react";
+import { Send, IndianRupee } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
@@ -46,7 +46,7 @@ const NewsletterSection = () => {
           </div>
           <h2 className="text-3xl font-bold mb-3">Stay Updated</h2>
           <p className="text-gray-600 mb-6">
-            Subscribe to our newsletter for exclusive offers, recipes, and sauce tips.
+            Subscribe to our newsletter for exclusive offers, recipes, and sauce tips. Get ₹100 off your first order!
           </p>
           
           <form onSubmit={handleSubmit} className="flex gap-2 max-w-md mx-auto">
@@ -65,6 +65,13 @@ const NewsletterSection = () => {
               {isLoading ? "Subscribing..." : "Subscribe"}
             </Button>
           </form>
+          
+          <div className="mt-6 flex items-center justify-center space-x-2">
+            <div className="bg-white p-2 rounded-full">
+              <IndianRupee size={16} className="text-sauce-red" />
+            </div>
+            <p className="text-sm font-medium">Indian Rupee (₹) is our primary currency</p>
+          </div>
           
           <p className="text-gray-500 text-xs mt-4">
             By subscribing, you agree to our Privacy Policy and consent to receive updates from Saucy Palace.

@@ -129,17 +129,17 @@ const About = () => {
               <div className="mb-4 relative">
                 <div className="w-48 h-48 mx-auto rounded-full overflow-hidden">
                   <img 
-                    src="https://randomuser.me/api/portraits/women/33.jpg" 
-                    alt="Maria Rodriguez" 
+                    src="https://randomuser.me/api/portraits/men/32.jpg" 
+                    alt="Jithin" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="absolute bottom-0 right-1/4 bg-sauce-red w-8 h-8 rounded-full border-4 border-white"></div>
               </div>
-              <h3 className="font-bold text-lg mb-1">Maria Rodriguez</h3>
-              <p className="text-sauce-red font-medium mb-2">Founder & Head Chef</p>
+              <h3 className="font-bold text-lg mb-1">Jithin</h3>
+              <p className="text-sauce-red font-medium mb-2">GenAI Specialist</p>
               <p className="text-gray-600 text-sm">
-                Culinary innovator with over 15 years of experience in gourmet kitchens around the world.
+                Leading our AI initiatives to enhance customer experience and optimize sauce recipes.
               </p>
             </div>
             
@@ -147,17 +147,17 @@ const About = () => {
               <div className="mb-4 relative">
                 <div className="w-48 h-48 mx-auto rounded-full overflow-hidden">
                   <img 
-                    src="https://randomuser.me/api/portraits/men/54.jpg" 
-                    alt="David Chen" 
+                    src="https://randomuser.me/api/portraits/men/43.jpg" 
+                    alt="Rajesh" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="absolute bottom-0 right-1/4 bg-sauce-orange w-8 h-8 rounded-full border-4 border-white"></div>
               </div>
-              <h3 className="font-bold text-lg mb-1">David Chen</h3>
-              <p className="text-sauce-orange font-medium mb-2">Production Manager</p>
+              <h3 className="font-bold text-lg mb-1">Rajesh</h3>
+              <p className="text-sauce-orange font-medium mb-2">Sauce Specialist</p>
               <p className="text-gray-600 text-sm">
-                Quality control expert ensuring each bottle meets our high standards.
+                Master sauce creator with exceptional taste and culinary innovation skills.
               </p>
             </div>
             
@@ -165,17 +165,17 @@ const About = () => {
               <div className="mb-4 relative">
                 <div className="w-48 h-48 mx-auto rounded-full overflow-hidden">
                   <img 
-                    src="https://randomuser.me/api/portraits/women/45.jpg" 
-                    alt="Sarah Johnson" 
+                    src="https://randomuser.me/api/portraits/men/52.jpg" 
+                    alt="Chandru" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="absolute bottom-0 right-1/4 bg-sauce-yellow w-8 h-8 rounded-full border-4 border-white"></div>
               </div>
-              <h3 className="font-bold text-lg mb-1">Sarah Johnson</h3>
-              <p className="text-sauce-yellow font-medium mb-2">Flavor Developer</p>
+              <h3 className="font-bold text-lg mb-1">Chandru</h3>
+              <p className="text-sauce-yellow font-medium mb-2">Cloud & DevOps Specialist</p>
               <p className="text-gray-600 text-sm">
-                Taste expert with a background in food science and culinary arts.
+                Ensuring our systems run smoothly and securely across all platforms.
               </p>
             </div>
             
@@ -183,17 +183,17 @@ const About = () => {
               <div className="mb-4 relative">
                 <div className="w-48 h-48 mx-auto rounded-full overflow-hidden">
                   <img 
-                    src="https://randomuser.me/api/portraits/men/32.jpg" 
-                    alt="Marcus Williams" 
+                    src="https://randomuser.me/api/portraits/men/62.jpg" 
+                    alt="Ajay" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="absolute bottom-0 right-1/4 bg-sauce-green w-8 h-8 rounded-full border-4 border-white"></div>
               </div>
-              <h3 className="font-bold text-lg mb-1">Marcus Williams</h3>
-              <p className="text-sauce-green font-medium mb-2">Sustainability Officer</p>
+              <h3 className="font-bold text-lg mb-1">Ajay</h3>
+              <p className="text-sauce-green font-medium mb-2">ML Engineer</p>
               <p className="text-gray-600 text-sm">
-                Leading our eco-friendly initiatives and sustainable sourcing.
+                Developing predictive models to forecast flavor trends and customer preferences.
               </p>
             </div>
           </div>

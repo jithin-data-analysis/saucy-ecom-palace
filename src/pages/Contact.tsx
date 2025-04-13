@@ -1,5 +1,6 @@
+
 import { useState } from "react";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send, IndianRupee } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -105,12 +106,12 @@ const Contact = () => {
                   <div>
                     <h3 className="font-medium mb-1">Call Us</h3>
                     <p className="text-gray-600 mb-1">Customer Service:</p>
-                    <a href="tel:+1-123-456-7890" className="text-sauce-orange hover:underline">
-                      +1 (123) 456-7890
+                    <a href="tel:+919845404862" className="text-sauce-orange hover:underline">
+                      +91 98454 04862
                     </a>
                     <p className="text-gray-600 mb-1 mt-2">Business Hours:</p>
                     <p className="text-gray-700">
-                      Monday - Friday: 9:00 AM - 5:00 PM EST
+                      Monday - Friday: 9:00 AM - 5:00 PM IST
                     </p>
                   </div>
                 </div>
@@ -123,9 +124,9 @@ const Contact = () => {
                     <h3 className="font-medium mb-1">Visit Us</h3>
                     <p className="text-gray-600 mb-1">Headquarters:</p>
                     <address className="not-italic text-gray-700">
-                      123 Flavor Street<br />
-                      Sauce City, SC 28990<br />
-                      United States
+                      No. 89, BTM 2nd Stage<br />
+                      Bangalore, Karnataka<br />
+                      India
                     </address>
                   </div>
                 </div>
@@ -248,14 +249,17 @@ const Contact = () => {
           </div>
           
           <div className="rounded-xl overflow-hidden shadow-sm h-96">
-            {/* Placeholder for map - in a real application, you'd use an iframe with Google Maps or a React map component */}
-            <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin size={48} className="mx-auto mb-2 text-sauce-red" />
-                <p className="font-medium">Map Placeholder</p>
-                <p className="text-sm text-gray-600">123 Flavor Street, Sauce City, SC 28990</p>
-              </div>
-            </div>
+            {/* Using an iframe for Google Maps */}
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15555.21646779383!2d77.59835755!3d12.9102685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d3c15e5b5d1%3A0x35247fff62c27458!2sBTM%202nd%20Stage%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1681856724319!5m2!1sen!2sin"
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen={true} 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Saucy Palace Location"
+            ></iframe>
           </div>
         </div>
       </section>
@@ -275,7 +279,7 @@ const Contact = () => {
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <h3 className="font-bold text-lg mb-2">What are your shipping policies?</h3>
                 <p className="text-gray-600">
-                  We offer free shipping on orders over $50 within the continental US. Standard shipping typically takes 3-5 business days. International shipping is available to select countries.
+                  We offer free shipping on orders over ₹1,000 within India. Standard shipping typically takes 3-5 business days. International shipping is available to select countries.
                 </p>
               </div>
               

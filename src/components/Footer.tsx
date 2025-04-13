@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { Facebook, Instagram, Twitter, Youtube, MapPin, Phone, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -43,11 +43,19 @@ const Footer = () => {
           
           <div>
             <h3 className="font-bold text-lg mb-4">Contact</h3>
-            <address className="not-italic text-gray-600">
-              <p>123 Flavor Street</p>
-              <p>Sauce City, SC 28990</p>
-              <p className="mt-2">Email: hello@saucypalace.com</p>
-              <p>Phone: (123) 456-7890</p>
+            <address className="not-italic text-gray-600 space-y-3">
+              <div className="flex items-center">
+                <MapPin size={16} className="mr-2 text-sauce-red" />
+                <p>No. 89, BTM 2nd Stage, Bangalore</p>
+              </div>
+              <div className="flex items-center">
+                <Mail size={16} className="mr-2 text-sauce-orange" />
+                <p>hello@saucypalace.com</p>
+              </div>
+              <div className="flex items-center">
+                <Phone size={16} className="mr-2 text-sauce-green" />
+                <p>+91 98454 04862</p>
+              </div>
             </address>
           </div>
         </div>
