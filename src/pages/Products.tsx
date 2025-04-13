@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Filter, SlidersHorizontal, X, ChevronDown } from "lucide-react";
@@ -16,8 +17,8 @@ const Products = () => {
   
   // Filter states
   const [category, setCategory] = useState<string>(queryParams.get("category") || "");
-  const [spiceLevel, setSpiceLevel] = useState<[number]>([0]);
-  const [priceRange, setPriceRange] = useState<[number]>([30]);
+  const [spiceLevel, setSpiceLevel] = useState<number[]>([0]);
+  const [priceRange, setPriceRange] = useState<number[]>([30]);
   const [inStock, setInStock] = useState<boolean>(false);
   const [onSale, setOnSale] = useState<boolean>(false);
   const [sortBy, setSortBy] = useState<SortOption>("featured");
