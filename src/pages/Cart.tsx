@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Trash2, Plus, Minus, ShoppingBag, ArrowRight } from "lucide-react";
@@ -124,11 +125,11 @@ const Cart = () => {
                     <div className="sm:hidden text-sm text-gray-500 mb-1">Price:</div>
                     {item.product.onSale && item.product.salePrice ? (
                       <div>
-                        <span className="font-medium text-sauce-red">${item.product.salePrice.toFixed(2)}</span>
-                        <span className="text-gray-400 text-sm line-through ml-2">${item.product.price.toFixed(2)}</span>
+                        <span className="font-medium text-sauce-red">₹{item.product.salePrice.toFixed(2)}</span>
+                        <span className="text-gray-400 text-sm line-through ml-2">₹{item.product.price.toFixed(2)}</span>
                       </div>
                     ) : (
-                      <span className="font-medium">${item.product.price.toFixed(2)}</span>
+                      <span className="font-medium">₹{item.product.price.toFixed(2)}</span>
                     )}
                   </div>
                   
@@ -163,7 +164,7 @@ const Cart = () => {
                     <div className="sm:hidden text-sm text-gray-500">Total:</div>
                     <div className="flex items-center">
                       <span className="font-medium">
-                        $
+                        ₹
                         {(
                           item.quantity *
                           (item.product.onSale && item.product.salePrice
@@ -214,17 +215,17 @@ const Cart = () => {
             <div className="space-y-2 text-sm">
               <div className="flex justify-between">
                 <span className="text-gray-600">Subtotal</span>
-                <span className="font-medium">${totalPrice.toFixed(2)}</span>
+                <span className="font-medium">₹{totalPrice.toFixed(2)}</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-gray-600">Shipping</span>
                 <span className="font-medium">
-                  {shipping === 0 ? "Free" : `$${shipping.toFixed(2)}`}
+                  {shipping === 0 ? "Free" : `₹${shipping.toFixed(2)}`}
                 </span>
               </div>
               <div className="flex justify-between">
                 <span className="text-gray-600">Tax</span>
-                <span className="font-medium">${tax.toFixed(2)}</span>
+                <span className="font-medium">₹{tax.toFixed(2)}</span>
               </div>
             </div>
             
@@ -255,7 +256,7 @@ const Cart = () => {
             
             <div className="flex justify-between items-center mb-6">
               <span className="font-bold">Total</span>
-              <span className="font-bold text-xl">${finalTotal.toFixed(2)}</span>
+              <span className="font-bold text-xl">₹{finalTotal.toFixed(2)}</span>
             </div>
             
             <Button 

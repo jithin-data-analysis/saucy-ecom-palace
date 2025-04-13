@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Check, CreditCard, ChevronRight, LockIcon, ArrowLeft } from "lucide-react";
@@ -309,7 +310,7 @@ const Checkout = () => {
                     </div>
                     <div className="ml-3 text-right">
                       <p className="font-medium">
-                        $
+                        ₹
                         {(
                           item.quantity *
                           (item.product.onSale && item.product.salePrice
@@ -325,17 +326,17 @@ const Checkout = () => {
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
                   <span className="text-gray-600">Subtotal</span>
-                  <span className="font-medium">${totalPrice.toFixed(2)}</span>
+                  <span className="font-medium">₹{totalPrice.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Shipping</span>
                   <span className="font-medium">
-                    {shipping === 0 ? "Free" : `$${shipping.toFixed(2)}`}
+                    {shipping === 0 ? "Free" : `₹${shipping.toFixed(2)}`}
                   </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Tax</span>
-                  <span className="font-medium">${tax.toFixed(2)}</span>
+                  <span className="font-medium">₹{tax.toFixed(2)}</span>
                 </div>
               </div>
               
@@ -343,7 +344,7 @@ const Checkout = () => {
               
               <div className="flex justify-between items-center">
                 <span className="font-bold">Total</span>
-                <span className="font-bold text-xl">${finalTotal.toFixed(2)}</span>
+                <span className="font-bold text-xl">₹{finalTotal.toFixed(2)}</span>
               </div>
             </CardContent>
             <CardFooter className="flex justify-center">
@@ -357,7 +358,7 @@ const Checkout = () => {
           <div className="mt-6 space-y-4">
             <div className="flex items-center text-sm">
               <Check size={16} className="text-green-600 mr-2" />
-              <span>Free shipping on orders over $50</span>
+              <span>Free shipping on orders over ₹50</span>
             </div>
             <div className="flex items-center text-sm">
               <Check size={16} className="text-green-600 mr-2" />

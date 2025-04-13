@@ -74,11 +74,11 @@ const ProductCard = ({ product }: ProductCardProps) => {
           <div className="flex items-center">
             {product.onSale ? (
               <>
-                <span className="text-sauce-red font-bold text-lg">${product.salePrice}</span>
-                <span className="text-gray-400 line-through ml-2 text-sm">${product.price}</span>
+                <span className="text-sauce-red font-bold text-lg">₹{product.salePrice}</span>
+                <span className="text-gray-400 line-through ml-2 text-sm">₹{product.price}</span>
               </>
             ) : (
-              <span className="font-bold text-lg">${product.price}</span>
+              <span className="font-bold text-lg">₹{product.price}</span>
             )}
           </div>
           <Button 

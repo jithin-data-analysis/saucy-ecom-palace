@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Star, Minus, Plus, ShoppingCart, Heart, ChevronRight, AlertCircle } from "lucide-react";
@@ -147,14 +148,14 @@ const ProductDetail = () => {
           <div className="mb-6">
             {product.onSale ? (
               <div className="flex items-center">
-                <span className="text-2xl font-bold text-sauce-red mr-2">${product.salePrice}</span>
-                <span className="text-gray-500 line-through">${product.price}</span>
+                <span className="text-2xl font-bold text-sauce-red mr-2">₹{product.salePrice}</span>
+                <span className="text-gray-500 line-through">₹{product.price}</span>
                 <span className="ml-2 bg-sauce-red/10 text-sauce-red px-2 py-1 rounded-full text-sm font-medium">
                   {Math.round(((product.price - (product.salePrice || 0)) / product.price) * 100)}% OFF
                 </span>
               </div>
             ) : (
-              <span className="text-2xl font-bold">${product.price}</span>
+              <span className="text-2xl font-bold">₹{product.price}</span>
             )}
           </div>
           
