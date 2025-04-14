@@ -73,9 +73,9 @@ export const products: Product[] = [
     price: 24.99,
     salePrice: null,
     onSale: false,
-    image: "https://images.unsplash.com/photo-1611014056030-1a4ceac5417b?q=80&w=687&auto=format&fit=crop",
+    image: "/lovable-uploads/caa98b18-9333-4994-a9a7-b3dad221d493.png",
     images: [
-      "https://images.unsplash.com/photo-1611014056030-1a4ceac5417b?q=80&w=687&auto=format&fit=crop",
+      "/lovable-uploads/caa98b18-9333-4994-a9a7-b3dad221d493.png",
       "https://images.unsplash.com/photo-1620705013083-7cc3c45b11a5?q=80&w=687&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1607430761612-701f567a6801?q=80&w=687&auto=format&fit=crop",
     ],
