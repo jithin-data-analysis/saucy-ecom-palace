@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const categories = [
@@ -13,14 +12,14 @@ const categories = [
     id: "bbq",
     name: "BBQ Sauces",
     description: "Perfect for grilling and smoking",
-    image: "/lovable-uploads/7733bd8d-dbbd-4137-a8e6-66b4ce7bfd48.png",
+    image: "https://cdn.pixabay.com/photo/2018/07/08/20/19/sauce-3524716_1280.jpg",
     color: "bg-sauce-orange",
   },
   {
     id: "specialty",
     name: "Specialty Sauces",
     description: "Unique flavors for every palate",
-    image: "/lovable-uploads/d805f999-5eb6-499f-930b-a07bc3fb9476.png",
+    image: "https://cdn.pixabay.com/photo/2019/10/13/08/23/sauce-4546043_1280.jpg",
     color: "bg-sauce-yellow",
   },
   {

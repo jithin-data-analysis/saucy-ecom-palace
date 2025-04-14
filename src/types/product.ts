@@ -1,9 +1,8 @@
-
 export interface Product {
   id: string;
   name: string;
   price: number;
-  salePrice?: number;
+  salePrice?: number | null;
   onSale: boolean;
   image: string;
   images: string[];
