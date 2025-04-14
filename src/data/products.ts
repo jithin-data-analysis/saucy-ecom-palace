@@ -1,4 +1,3 @@
-
 import { Product } from "@/types/product";
 
 export const products: Product[] = [
@@ -8,9 +7,9 @@ export const products: Product[] = [
     price: 12.99,
     salePrice: 9.99,
     onSale: true,
-    image: "https://images.unsplash.com/photo-1589732225478-c3e6a425a81a?q=80&w=687&auto=format&fit=crop",
+    image: "/lovable-uploads/855d93f6-4022-43c5-91eb-00dd6a15e0d0.png",
     images: [
-      "https://images.unsplash.com/photo-1589732225478-c3e6a425a81a?q=80&w=687&auto=format&fit=crop",
+      "/lovable-uploads/855d93f6-4022-43c5-91eb-00dd6a15e0d0.png",
       "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1515946951604-5161e441dc04?q=80&w=687&auto=format&fit=crop",
     ],
