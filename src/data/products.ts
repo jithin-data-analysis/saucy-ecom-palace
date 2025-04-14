@@ -7,10 +7,11 @@ export const products: Product[] = [
     price: 12.99,
     salePrice: 9.99,
     onSale: true,
-    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
+    image: "/images/hot-sauce.jpg",
     images: [
-      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1515946951604-5161e441dc04?q=80&w=687&auto=format&fit=crop",
+      "/images/hot-sauce.jpg",
+      "/images/chili-fish-sauce-908355_1280.jpg",
+      "/images/cakes-1907840_1280.jpg"
     ],
     category: "hot",
     spiceLevel: 5,
@@ -28,11 +29,11 @@ export const products: Product[] = [
     price: 10.99,
     salePrice: null,
     onSale: false,
-    image: "https://images.unsplash.com/photo-1608500218890-c4f9548a4171?q=80&w=687&auto=format&fit=crop",
+    image: "/images/bbq-sauce.jpg",
     images: [
-      "https://images.unsplash.com/photo-1608500218890-c4f9548a4171?q=80&w=687&auto=format&fit=crop",
-      "https://images.unsplash.com/photo/2023/03/14/20/10/barbecue-sauce-7852372_1280.jpg",
-      "https://images.unsplash.com/photo/2018/07/14/21/30/sauce-3538105_1280.jpg"
+      "/images/bbq-sauce.jpg",
+      "/images/honey-823614_1280.jpg",
+      "/images/noodles-3476121_1280.jpg"
     ],
     category: "bbq",
     spiceLevel: 2,
@@ -50,11 +51,11 @@ export const products: Product[] = [
     price: 11.99,
     salePrice: null,
     onSale: false,
-    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
+    image: "/images/smoothie-5528952_1280.jpg",
     images: [
-      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
-      "https://images.unsplash.com/photo/2017/09/30/09/29/hot-sauce-2801503_1280.jpg",
-      "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126054_1280.jpg"
+      "/images/smoothie-5528952_1280.jpg",
+      "/images/hot-chocolate-1058197_1280.jpg",
+      "/images/cakes-1907840_1280.jpg"
     ],
     category: "specialty",
     spiceLevel: 4,
@@ -72,11 +73,12 @@ export const products: Product[] = [
     price: 24.99,
     salePrice: null,
     onSale: false,
-    image: "/lovable-uploads/caa98b18-9333-4994-a9a7-b3dad221d493.png",
+    image: "/images/dip-6906622_1280.jpg",
     images: [
-      "/lovable-uploads/caa98b18-9333-4994-a9a7-b3dad221d493.png",
-      "https://images.unsplash.com/photo-1620705013083-7cc3c45b11a5?q=80&w=687&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1607430761612-701f567a6801?q=80&w=687&auto=format&fit=crop",
+      "/images/dip-6906622_1280.jpg",
+      "/images/hot-sauce.jpg",
+      "/images/bbq-sauce.jpg",
+      "/images/noodles-3476121_1280.jpg"
     ],
     category: "gift",
     spiceLevel: 3,
@@ -94,11 +96,11 @@ export const products: Product[] = [
     price: 9.99,
     salePrice: null,
     onSale: false,
-    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
+    image: "/images/chili-fish-sauce-908355_1280.jpg",
     images: [
-      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
-      "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126055_1280.jpg",
-      "https://images.unsplash.com/photo/2017/09/30/09/29/sauce-2801505_1280.jpg"
+      "/images/chili-fish-sauce-908355_1280.jpg",
+      "/images/hot-sauce.jpg",
+      "/images/cakes-1907840_1280.jpg"
     ],
     category: "hot",
     spiceLevel: 3,
@@ -116,11 +118,11 @@ export const products: Product[] = [
     price: 14.99,
     salePrice: 13.49,
     onSale: true,
-    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
+    image: "/images/hot-sauce.jpg",
     images: [
-      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
-      "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126053_1280.jpg",
-      "https://images.unsplash.com/photo/2017/09/30/09/29/sauce-2801506_1280.jpg"
+      "/images/hot-sauce.jpg",
+      "/images/chili-fish-sauce-908355_1280.jpg",
+      "/images/noodles-3476121_1280.jpg"
     ],
     category: "hot",
     spiceLevel: 6,
@@ -138,11 +140,11 @@ export const products: Product[] = [
     price: 11.99,
     salePrice: null,
     onSale: false,
-    image: "/lovable-uploads/63103765-3a3a-4310-973f-c7c31c5e667f.png",
+    image: "/images/honey-823614_1280.jpg",
     images: [
-      "/lovable-uploads/63103765-3a3a-4310-973f-c7c31c5e667f.png",
-      "https://images.unsplash.com/photo-1608500218890-c4f9548a4171?q=80&w=687&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1611027795566-38f74944d676?q=80&w=687&auto=format&fit=crop",
+      "/images/honey-823614_1280.jpg",
+      "/images/bbq-sauce.jpg",
+      "/images/cakes-1907840_1280.jpg"
     ],
     category: "bbq",
     spiceLevel: 2,
@@ -160,11 +162,11 @@ export const products: Product[] = [
     price: 18.99,
     salePrice: null,
     onSale: false,
-    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
+    image: "/images/dip-6906622_1280.jpg",
     images: [
-      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
-      "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126056_1280.jpg",
-      "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126057_1280.jpg"
+      "/images/dip-6906622_1280.jpg",
+      "/images/hot-sauce.jpg",
+      "/images/noodles-3476121_1280.jpg"
     ],
     category: "specialty",
     spiceLevel: 2,
