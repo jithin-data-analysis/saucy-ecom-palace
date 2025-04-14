@@ -45,22 +45,22 @@ const Hero = () => {
               
               <div className="absolute top-0 right-0 w-56 h-72 bg-white rounded-xl shadow-xl transform rotate-6 overflow-hidden">
                 <img 
-                  src="/lovable-uploads/19150676-c9a5-48eb-848a-82c6a4b03240.png" 
+                  src="/lovable-uploads/0f4ab2b1-108d-442f-9b89-b3574ef3956f.png" 
                   alt="Hot sauce bottles" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute top-1/4 left-0 w-52 h-64 bg-white rounded-xl shadow-xl transform -rotate-3 overflow-hidden z-10">
                 <img 
-                  src="/lovable-uploads/9a9ee884-a534-494c-9493-a399b47c89dd.png" 
-                  alt="Sauce with peppers" 
+                  src="/lovable-uploads/d805f999-5eb6-499f-930b-a07bc3fb9476.png" 
+                  alt="Yellow sauce bottles" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute bottom-0 right-1/4 w-48 h-56 bg-white rounded-xl shadow-xl transform -rotate-12 overflow-hidden">
                 <img 
-                  src="/lovable-uploads/bf4b9799-13c9-413e-82c7-0da73754331b.png" 
-                  alt="Sauce ingredients" 
+                  src="/lovable-uploads/7733bd8d-dbbd-4137-a8e6-66b4ce7bfd48.png" 
+                  alt="Sauce with ingredients" 
                   className="w-full h-full object-cover"
                 />
               </div>
