@@ -7,9 +7,8 @@ export const products: Product[] = [
     price: 12.99,
     salePrice: 9.99,
     onSale: true,
-    image: "/lovable-uploads/855d93f6-4022-43c5-91eb-00dd6a15e0d0.png",
+    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
     images: [
-      "/lovable-uploads/855d93f6-4022-43c5-91eb-00dd6a15e0d0.png",
       "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1515946951604-5161e441dc04?q=80&w=687&auto=format&fit=crop",
     ],
@@ -29,11 +28,11 @@ export const products: Product[] = [
     price: 10.99,
     salePrice: null,
     onSale: false,
-    image: "https://cdn.pixabay.com/photo/2018/07/08/20/19/sauce-3524716_1280.jpg",
+    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
     images: [
-      "https://cdn.pixabay.com/photo/2018/07/08/20/19/sauce-3524716_1280.jpg",
-      "https://cdn.pixabay.com/photo/2023/03/14/20/10/barbecue-sauce-7852372_1280.jpg",
-      "https://cdn.pixabay.com/photo/2018/07/14/21/30/sauce-3538105_1280.jpg"
+      "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo/2023/03/14/20/10/barbecue-sauce-7852372_1280.jpg",
+      "https://images.unsplash.com/photo/2018/07/14/21/30/sauce-3538105_1280.jpg"
     ],
     category: "bbq",
     spiceLevel: 2,
@@ -51,11 +50,11 @@ export const products: Product[] = [
     price: 11.99,
     salePrice: null,
     onSale: false,
-    image: "https://cdn.pixabay.com/photo/2019/04/14/03/08/sauce-4126053_1280.jpg",
+    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
     images: [
-      "https://cdn.pixabay.com/photo/2019/04/14/03/08/sauce-4126053_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/09/30/09/29/hot-sauce-2801503_1280.jpg",
-      "https://cdn.pixabay.com/photo/2019/04/14/03/08/sauce-4126054_1280.jpg"
+      "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo/2017/09/30/09/29/hot-sauce-2801503_1280.jpg",
+      "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126054_1280.jpg"
     ],
     category: "specialty",
     spiceLevel: 4,
@@ -95,11 +94,11 @@ export const products: Product[] = [
     price: 9.99,
     salePrice: null,
     onSale: false,
-    image: "https://cdn.pixabay.com/photo/2017/09/30/09/29/chili-sauce-2801504_1280.jpg",
+    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
     images: [
-      "https://cdn.pixabay.com/photo/2017/09/30/09/29/chili-sauce-2801504_1280.jpg",
-      "https://cdn.pixabay.com/photo/2019/04/14/03/08/sauce-4126055_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/09/30/09/29/sauce-2801505_1280.jpg"
+      "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126055_1280.jpg",
+      "https://images.unsplash.com/photo/2017/09/30/09/29/sauce-2801505_1280.jpg"
     ],
     category: "hot",
     spiceLevel: 3,
@@ -117,11 +116,11 @@ export const products: Product[] = [
     price: 14.99,
     salePrice: 13.49,
     onSale: true,
-    image: "https://cdn.pixabay.com/photo/2017/09/30/09/29/hot-sauce-2801503_1280.jpg",
+    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
     images: [
-      "https://cdn.pixabay.com/photo/2017/09/30/09/29/hot-sauce-2801503_1280.jpg",
-      "https://cdn.pixabay.com/photo/2019/04/14/03/08/sauce-4126053_1280.jpg",
-      "https://cdn.pixabay.com/photo/2017/09/30/09/29/sauce-2801506_1280.jpg"
+      "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126053_1280.jpg",
+      "https://images.unsplash.com/photo/2017/09/30/09/29/sauce-2801506_1280.jpg"
     ],
     category: "hot",
     spiceLevel: 6,
@@ -161,11 +160,11 @@ export const products: Product[] = [
     price: 18.99,
     salePrice: null,
     onSale: false,
-    image: "https://cdn.pixabay.com/photo/2019/10/13/08/23/sauce-4546043_1280.jpg",
+    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
     images: [
-      "https://cdn.pixabay.com/photo/2019/10/13/08/23/sauce-4546043_1280.jpg",
-      "https://cdn.pixabay.com/photo/2019/04/14/03/08/sauce-4126056_1280.jpg",
-      "https://cdn.pixabay.com/photo/2019/04/14/03/08/sauce-4126057_1280.jpg"
+      "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126056_1280.jpg",
+      "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126057_1280.jpg"
     ],
     category: "specialty",
     spiceLevel: 2,

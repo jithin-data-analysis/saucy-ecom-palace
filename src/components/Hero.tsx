@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -45,21 +44,21 @@ const Hero = () => {
               
               <div className="absolute top-0 right-0 w-56 h-72 bg-white rounded-xl shadow-xl transform rotate-6 overflow-hidden">
                 <img 
-                  src="/lovable-uploads/0f4ab2b1-108d-442f-9b89-b3574ef3956f.png" 
+                  src="https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop" 
                   alt="Hot sauce bottles" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute top-1/4 left-0 w-52 h-64 bg-white rounded-xl shadow-xl transform -rotate-3 overflow-hidden z-10">
                 <img 
-                  src="/lovable-uploads/d805f999-5eb6-499f-930b-a07bc3fb9476.png" 
+                  src="https://images.unsplash.com/photo-1515946951604-5161e441dc04?q=80&w=687&auto=format&fit=crop" 
                   alt="Yellow sauce bottles" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute bottom-0 right-1/4 w-48 h-56 bg-white rounded-xl shadow-xl transform -rotate-12 overflow-hidden">
                 <img 
-                  src="/lovable-uploads/7733bd8d-dbbd-4137-a8e6-66b4ce7bfd48.png" 
+                  src="https://images.unsplash.com/photo-1620705013083-7cc3c45b11a5?q=80&w=687&auto=format&fit=crop" 
                   alt="Sauce with ingredients" 
                   className="w-full h-full object-cover"
                 />

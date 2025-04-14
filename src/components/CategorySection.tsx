@@ -2,33 +2,29 @@ import { Link } from "react-router-dom";
 
 const categories = [
   {
-    id: "hot",
     name: "Hot Sauces",
-    description: "Bring the heat to any dish",
-    image: "/lovable-uploads/0f4ab2b1-108d-442f-9b89-b3574ef3956f.png",
-    color: "bg-sauce-red",
+    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    description: "Spicy and flavorful hot sauces from around the world",
+    color: "bg-sauce-red"
   },
   {
-    id: "bbq",
     name: "BBQ Sauces",
-    description: "Perfect for grilling and smoking",
-    image: "https://cdn.pixabay.com/photo/2018/07/08/20/19/sauce-3524716_1280.jpg",
-    color: "bg-sauce-orange",
+    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    description: "Rich and smoky BBQ sauces for grilling",
+    color: "bg-sauce-orange"
   },
   {
-    id: "specialty",
+    name: "Asian Sauces",
+    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    description: "Authentic Asian sauces and marinades",
+    color: "bg-sauce-yellow"
+  },
+  {
     name: "Specialty Sauces",
-    description: "Unique flavors for every palate",
-    image: "https://cdn.pixabay.com/photo/2019/10/13/08/23/sauce-4546043_1280.jpg",
-    color: "bg-sauce-yellow",
-  },
-  {
-    id: "dessert",
-    name: "Dessert Sauces",
-    description: "Sweet additions to your treats",
-    image: "/lovable-uploads/8d4e8904-644d-44e1-88d7-8fd316c46dce.png",
-    color: "bg-sauce-green",
-  },
+    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    description: "Unique and gourmet sauce creations",
+    color: "bg-sauce-green"
+  }
 ];
 
 const CategorySection = () => {
@@ -43,8 +39,8 @@ const CategorySection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map((category) => (
             <Link 
-              key={category.id}
-              to={`/products?category=${category.id}`}
+              key={category.name}
+              to={`/products?category=${category.name.toLowerCase().replace(/\s+/g, '-')}`}
               className="sauce-card group relative h-64 rounded-xl overflow-hidden"
             >
               <img 
