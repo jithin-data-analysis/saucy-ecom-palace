@@ -7,9 +7,9 @@ export const products: Product[] = [
     price: 12.99,
     salePrice: 9.99,
     onSale: true,
-    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1515946951604-5161e441dc04?q=80&w=687&auto=format&fit=crop",
     ],
     category: "hot",
@@ -28,9 +28,9 @@ export const products: Product[] = [
     price: 10.99,
     salePrice: null,
     onSale: false,
-    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1608500218890-c4f9548a4171?q=80&w=687&auto=format&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1608500218890-c4f9548a4171?q=80&w=687&auto=format&fit=crop",
       "https://images.unsplash.com/photo/2023/03/14/20/10/barbecue-sauce-7852372_1280.jpg",
       "https://images.unsplash.com/photo/2018/07/14/21/30/sauce-3538105_1280.jpg"
     ],
@@ -50,9 +50,9 @@ export const products: Product[] = [
     price: 11.99,
     salePrice: null,
     onSale: false,
-    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
       "https://images.unsplash.com/photo/2017/09/30/09/29/hot-sauce-2801503_1280.jpg",
       "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126054_1280.jpg"
     ],
@@ -94,9 +94,9 @@ export const products: Product[] = [
     price: 9.99,
     salePrice: null,
     onSale: false,
-    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
       "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126055_1280.jpg",
       "https://images.unsplash.com/photo/2017/09/30/09/29/sauce-2801505_1280.jpg"
     ],
@@ -116,9 +116,9 @@ export const products: Product[] = [
     price: 14.99,
     salePrice: 13.49,
     onSale: true,
-    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
       "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126053_1280.jpg",
       "https://images.unsplash.com/photo/2017/09/30/09/29/sauce-2801506_1280.jpg"
     ],
@@ -160,9 +160,9 @@ export const products: Product[] = [
     price: 18.99,
     salePrice: null,
     onSale: false,
-    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=687&auto=format&fit=crop",
       "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126056_1280.jpg",
       "https://images.unsplash.com/photo/2019/04/14/03/08/sauce-4126057_1280.jpg"
     ],
