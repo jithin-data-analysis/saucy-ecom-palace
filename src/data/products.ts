@@ -7,11 +7,11 @@ export const products: Product[] = [
     price: 12.99,
     salePrice: 9.99,
     onSale: true,
-    image: "/images/hot-sauce.jpg",
+    image: "/images/Hot-Sauce2.jpg",
     images: [
-      "/images/hot-sauce.jpg",
-      "/images/chili-fish-sauce-908355_1280.jpg",
-      "/images/cakes-1907840_1280.jpg"
+      "/images/Hot-Sauce2.jpg",
+      "/images/sauce with ingrediants.png",
+      "/images/chili-fish-sauce-908355_1280.jpg"
     ],
     category: "hot",
     spiceLevel: 5,
@@ -29,11 +29,11 @@ export const products: Product[] = [
     price: 10.99,
     salePrice: null,
     onSale: false,
-    image: "/images/bbq-sauce.jpg",
+    image: "/images/bbq-sauce.webp",
     images: [
-      "/images/bbq-sauce.jpg",
-      "/images/honey-823614_1280.jpg",
-      "/images/noodles-3476121_1280.jpg"
+      "/images/bbq-sauce.webp",
+      "/images/sauce with ingrediants.png",
+      "/images/honey-823614_1280.jpg"
     ],
     category: "bbq",
     spiceLevel: 2,
@@ -51,11 +51,11 @@ export const products: Product[] = [
     price: 11.99,
     salePrice: null,
     onSale: false,
-    image: "/images/smoothie-5528952_1280.jpg",
+    image: "/images/yellow_sauce.jpg",
     images: [
-      "/images/smoothie-5528952_1280.jpg",
-      "/images/hot-chocolate-1058197_1280.jpg",
-      "/images/cakes-1907840_1280.jpg"
+      "/images/yellow_sauce.jpg",
+      "/images/sauce with ingrediants.png",
+      "/images/smoothie-5528952_1280.jpg"
     ],
     category: "specialty",
     spiceLevel: 4,
@@ -73,12 +73,12 @@ export const products: Product[] = [
     price: 24.99,
     salePrice: null,
     onSale: false,
-    image: "/images/dip-6906622_1280.jpg",
+    image: "/images/sauce with ingrediants.png",
     images: [
-      "/images/dip-6906622_1280.jpg",
-      "/images/hot-sauce.jpg",
-      "/images/bbq-sauce.jpg",
-      "/images/noodles-3476121_1280.jpg"
+      "/images/sauce with ingrediants.png",
+      "/images/Hot-Sauce2.jpg",
+      "/images/bbq-sauce.webp",
+      "/images/yellow_sauce.jpg"
     ],
     category: "gift",
     spiceLevel: 3,
@@ -96,11 +96,11 @@ export const products: Product[] = [
     price: 9.99,
     salePrice: null,
     onSale: false,
-    image: "/images/chili-fish-sauce-908355_1280.jpg",
+    image: "/images/Hot-Sauce2.jpg",
     images: [
-      "/images/chili-fish-sauce-908355_1280.jpg",
-      "/images/hot-sauce.jpg",
-      "/images/cakes-1907840_1280.jpg"
+      "/images/Hot-Sauce2.jpg",
+      "/images/sauce with ingrediants.png",
+      "/images/chili-fish-sauce-908355_1280.jpg"
     ],
     category: "hot",
     spiceLevel: 3,
@@ -118,11 +118,11 @@ export const products: Product[] = [
     price: 14.99,
     salePrice: 13.49,
     onSale: true,
-    image: "/images/hot-sauce.jpg",
+    image: "/images/Hot-Sauce2.jpg",
     images: [
-      "/images/hot-sauce.jpg",
-      "/images/chili-fish-sauce-908355_1280.jpg",
-      "/images/noodles-3476121_1280.jpg"
+      "/images/Hot-Sauce2.jpg",
+      "/images/sauce with ingrediants.png",
+      "/images/chili-fish-sauce-908355_1280.jpg"
     ],
     category: "hot",
     spiceLevel: 6,
@@ -140,11 +140,11 @@ export const products: Product[] = [
     price: 11.99,
     salePrice: null,
     onSale: false,
-    image: "/images/honey-823614_1280.jpg",
+    image: "/images/bbq-sauce.webp",
     images: [
-      "/images/honey-823614_1280.jpg",
-      "/images/bbq-sauce.jpg",
-      "/images/cakes-1907840_1280.jpg"
+      "/images/bbq-sauce.webp",
+      "/images/sauce with ingrediants.png",
+      "/images/honey-823614_1280.jpg"
     ],
     category: "bbq",
     spiceLevel: 2,
@@ -162,11 +162,11 @@ export const products: Product[] = [
     price: 18.99,
     salePrice: null,
     onSale: false,
-    image: "/images/dip-6906622_1280.jpg",
+    image: "/images/speciality sauce.jpeg",
     images: [
-      "/images/dip-6906622_1280.jpg",
-      "/images/hot-sauce.jpg",
-      "/images/noodles-3476121_1280.jpg"
+      "/images/speciality sauce.jpeg",
+      "/images/sauce with ingrediants.png",
+      "/images/dip-6906622_1280.jpg"
     ],
     category: "specialty",
     spiceLevel: 2,
