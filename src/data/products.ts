@@ -10,8 +10,6 @@ export const products: Product[] = [
     image: "/images/Hot-Sauce2.jpg",
     images: [
       "/images/Hot-Sauce2.jpg",
-      "/images/sauce with ingrediants.png",
-      "/images/chili-fish-sauce-908355_1280.jpg"
     ],
     category: "hot",
     spiceLevel: 5,
@@ -32,8 +30,6 @@ export const products: Product[] = [
     image: "/images/bbq-sauce.webp",
     images: [
       "/images/bbq-sauce.webp",
-      "/images/sauce with ingrediants.png",
-      "/images/honey-823614_1280.jpg"
     ],
     category: "bbq",
     spiceLevel: 2,
@@ -54,8 +50,6 @@ export const products: Product[] = [
     image: "/images/yellow_sauce.jpg",
     images: [
       "/images/yellow_sauce.jpg",
-      "/images/sauce with ingrediants.png",
-      "/images/smoothie-5528952_1280.jpg"
     ],
     category: "specialty",
     spiceLevel: 4,
@@ -73,12 +67,9 @@ export const products: Product[] = [
     price: 24.99,
     salePrice: null,
     onSale: false,
-    image: "/images/sauce with ingrediants.png",
+    image: "/images/speciality sauce.jpeg",
     images: [
-      "/images/sauce with ingrediants.png",
-      "/images/Hot-Sauce2.jpg",
-      "/images/bbq-sauce.webp",
-      "/images/yellow_sauce.jpg"
+      "/images/speciality sauce.jpeg",
     ],
     category: "gift",
     spiceLevel: 3,
@@ -96,11 +87,9 @@ export const products: Product[] = [
     price: 9.99,
     salePrice: null,
     onSale: false,
-    image: "/images/Hot-Sauce2.jpg",
+    image: "/images/sauce with ingrediants.png",
     images: [
-      "/images/Hot-Sauce2.jpg",
       "/images/sauce with ingrediants.png",
-      "/images/chili-fish-sauce-908355_1280.jpg"
     ],
     category: "hot",
     spiceLevel: 3,
@@ -118,11 +107,9 @@ export const products: Product[] = [
     price: 14.99,
     salePrice: 13.49,
     onSale: true,
-    image: "/images/Hot-Sauce2.jpg",
+    image: "/images/desert sauce.jpeg",
     images: [
-      "/images/Hot-Sauce2.jpg",
-      "/images/sauce with ingrediants.png",
-      "/images/chili-fish-sauce-908355_1280.jpg"
+      "/images/desert sauce.jpeg",
     ],
     category: "hot",
     spiceLevel: 6,
@@ -140,11 +127,9 @@ export const products: Product[] = [
     price: 11.99,
     salePrice: null,
     onSale: false,
-    image: "/images/bbq-sauce.webp",
+    image: "/images/smoothie-5528952_1280.jpg",
     images: [
-      "/images/bbq-sauce.webp",
-      "/images/sauce with ingrediants.png",
-      "/images/honey-823614_1280.jpg"
+      "/images/smoothie-5528952_1280.jpg",
     ],
     category: "bbq",
     spiceLevel: 2,
@@ -162,11 +147,9 @@ export const products: Product[] = [
     price: 18.99,
     salePrice: null,
     onSale: false,
-    image: "/images/speciality sauce.jpeg",
+    image: "/images/dip-6906622_1280.jpg",
     images: [
-      "/images/speciality sauce.jpeg",
-      "/images/sauce with ingrediants.png",
-      "/images/dip-6906622_1280.jpg"
+      "/images/dip-6906622_1280.jpg",
     ],
     category: "specialty",
     spiceLevel: 2,
