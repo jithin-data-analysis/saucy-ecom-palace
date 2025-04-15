@@ -3,25 +3,25 @@ import { Link } from "react-router-dom";
 const categories = [
   {
     name: "Hot Sauces",
-    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    image: "/images/Hot-Sauce2.jpg",
     description: "Spicy and flavorful hot sauces from around the world",
     color: "bg-sauce-red"
   },
   {
     name: "BBQ Sauces",
-    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    image: "/images/bbq-sauce.webp",
     description: "Rich and smoky BBQ sauces for grilling",
     color: "bg-sauce-orange"
   },
   {
     name: "Asian Sauces",
-    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    image: "/images/chili-fish-sauce-908355_1280.jpg",
     description: "Authentic Asian sauces and marinades",
     color: "bg-sauce-yellow"
   },
   {
     name: "Specialty Sauces",
-    image: "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop",
+    image: "/images/speciality sauce.jpeg",
     description: "Unique and gourmet sauce creations",
     color: "bg-sauce-green"
   }

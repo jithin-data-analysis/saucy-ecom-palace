@@ -36,33 +36,31 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="order-1 md:order-2 relative">
-            <div className="relative h-[400px] w-full">
-              <div className="absolute top-8 -right-4 w-64 h-64 rounded-full bg-sauce-yellow/30 blur-md"></div>
-              <div className="absolute -bottom-8 left-8 w-48 h-48 rounded-full bg-sauce-green/30 blur-md"></div>
-              <div className="absolute left-12 top-12 w-32 h-32 rounded-full bg-sauce-blue/30 blur-md"></div>
+          <div className="relative h-[400px] w-full">
+            <div className="absolute top-8 -right-4 w-64 h-64 rounded-full bg-sauce-yellow/30 blur-md"></div>
+            <div className="absolute -bottom-8 left-8 w-48 h-48 rounded-full bg-sauce-green/30 blur-md"></div>
+            <div className="absolute left-12 top-12 w-32 h-32 rounded-full bg-sauce-blue/30 blur-md"></div>
               
-              <div className="absolute top-0 right-0 w-56 h-72 bg-white rounded-xl shadow-xl transform rotate-6 overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=687&auto=format&fit=crop" 
-                  alt="Hot sauce bottles" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute top-1/4 left-0 w-52 h-64 bg-white rounded-xl shadow-xl transform -rotate-3 overflow-hidden z-10">
-                <img 
-                  src="https://images.unsplash.com/photo-1515946951604-5161e441dc04?q=80&w=687&auto=format&fit=crop" 
-                  alt="Yellow sauce bottles" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute bottom-0 right-1/4 w-48 h-56 bg-white rounded-xl shadow-xl transform -rotate-12 overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1620705013083-7cc3c45b11a5?q=80&w=687&auto=format&fit=crop" 
-                  alt="Sauce with ingredients" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
+            <div className="absolute top-0 right-0 w-56 h-72 bg-white rounded-xl shadow-xl transform rotate-6 overflow-hidden">
+              <img 
+                src="/images/Hot-Sauce2.jpg" 
+                alt="Hot sauce bottles" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="absolute top-1/4 left-0 w-52 h-64 bg-white rounded-xl shadow-xl transform -rotate-3 overflow-hidden z-10">
+              <img 
+                src="/images/yellow_sauce.jpg" 
+                alt="Yellow sauce bottles" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="absolute bottom-0 right-1/4 w-48 h-56 bg-white rounded-xl shadow-xl transform -rotate-12 overflow-hidden">
+              <img 
+                src="/images/sauce with ingrediants.png" 
+                alt="Sauce with ingredients" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
