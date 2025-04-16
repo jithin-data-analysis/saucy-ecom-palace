@@ -65,7 +65,7 @@ const About: React.FC = () => {
         {/* Hero Image */}
         <div className="relative h-[400px] rounded-2xl overflow-hidden mb-12">
           <img 
-            src="/images/flowing sauace 1.jpeg" 
+            src="/images/flowing sauce1.jpeg" 
             alt="Flowing sauce splash"
             className="w-full h-full object-cover"
           />
@@ -86,14 +86,14 @@ const About: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-12">
             <div className="rounded-xl overflow-hidden h-[300px]">
               <img 
-                src="/images/flowing sauace 2.jpeg" 
+                src="/images/flowing sauce 2.jpg" 
                 alt="Artisanal sauce creation"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="rounded-xl overflow-hidden h-[300px]">
               <img 
-                src="/images/flowing sauace 3.jpeg" 
+                src="/images/flowing sauce 3.jpeg" 
                 alt="Premium sauce collection"
                 className="w-full h-full object-cover"
               />
