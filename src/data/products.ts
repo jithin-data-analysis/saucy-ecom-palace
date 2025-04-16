@@ -7,9 +7,11 @@ export const products: Product[] = [
     price: 12.99,
     salePrice: 9.99,
     onSale: true,
-    image: "/images/Hot-Sauce2.jpg",
+    image: "/images/hot-sauce.jpg",
     images: [
+      "/images/hot-sauce.jpg",
       "/images/Hot-Sauce2.jpg",
+      "/images/chili-fish-sauce-908355_1280.jpg"
     ],
     category: "hot",
     spiceLevel: 5,
@@ -30,6 +32,8 @@ export const products: Product[] = [
     image: "/images/bbq-sauce.webp",
     images: [
       "/images/bbq-sauce.webp",
+      "/images/BBQ - bar.jpg",
+      "/images/sauce with ingrediants.png"
     ],
     category: "bbq",
     spiceLevel: 2,
@@ -47,9 +51,11 @@ export const products: Product[] = [
     price: 11.99,
     salePrice: null,
     onSale: false,
-    image: "/images/mango_sauce.jpeg",
+    image: "/images/yellow_sauce.jpg",
     images: [
-      "/images/mango_sauce.jpeg",
+      "/images/yellow_sauce.jpg",
+      "/images/flowing sauce 2.jpg",
+      "/images/flowing sauce 3.jpeg"
     ],
     category: "specialty",
     spiceLevel: 4,
@@ -67,9 +73,11 @@ export const products: Product[] = [
     price: 24.99,
     salePrice: null,
     onSale: false,
-    image: "/images/BBQ - bar.jpeg",
+    image: "/images/BBQ - bar.jpg",
     images: [
-      "/images/BBQ - bar.jpeg",
+      "/images/BBQ - bar.jpg",
+      "/images/sauce dream.jpeg",
+      "/images/flowing sauce1.jpeg"
     ],
     category: "gift",
     spiceLevel: 3,
