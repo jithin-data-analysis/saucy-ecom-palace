@@ -65,8 +65,8 @@ const About: React.FC = () => {
         {/* Hero Image */}
         <div className="relative h-[400px] rounded-2xl overflow-hidden mb-12">
           <img 
-            src="/images/sauce-splash.jpg" 
-            alt="Tomato sauce splash"
+            src="/images/flowing sauace 1.jpeg" 
+            alt="Flowing sauce splash"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
@@ -86,15 +86,15 @@ const About: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-12">
             <div className="rounded-xl overflow-hidden h-[300px]">
               <img 
-                src="/images/sauce-jars.jpg" 
-                alt="Variety of sauces"
+                src="/images/flowing sauace 2.jpeg" 
+                alt="Artisanal sauce creation"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="rounded-xl overflow-hidden h-[300px]">
               <img 
-                src="/images/sauce-bottles.jpg" 
-                alt="Sauce bottles collection"
+                src="/images/flowing sauace 3.jpeg" 
+                alt="Premium sauce collection"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -107,8 +107,8 @@ const About: React.FC = () => {
           {/* Featured Image */}
           <div className="rounded-xl overflow-hidden h-[400px] my-12">
             <img 
-              src="/images/honey-sauce.jpg" 
-              alt="Premium honey sauce"
+              src="/images/sauce dream.jpeg" 
+              alt="Sauce crafting perfection"
               className="w-full h-full object-cover"
             />
           </div>
