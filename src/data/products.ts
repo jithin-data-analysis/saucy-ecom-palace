@@ -51,9 +51,9 @@ export const products: Product[] = [
     price: 11.99,
     salePrice: null,
     onSale: false,
-    image: "/images/yellow_sauce.jpg",
+    image: "/images/mango_sauce.jpeg",
     images: [
-      "/images/yellow_sauce.jpg",
+      "/images/mango_sauce.jpeg",
       "/images/flowing sauce 2.jpg",
       "/images/flowing sauce 3.jpeg"
     ],

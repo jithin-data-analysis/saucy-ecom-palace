@@ -5,7 +5,7 @@ const Logo = () => {
     <Link to="/" className="flex items-center gap-2">
       <div className="relative w-12 h-12 overflow-hidden">
         <img 
-          src="/images/logo.jpg" 
+          src="/images/logo_lips.jpeg" 
           alt="Saucy Palace Logo" 
           className="w-full h-full object-contain"
         />
