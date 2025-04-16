@@ -67,9 +67,9 @@ export const products: Product[] = [
     price: 24.99,
     salePrice: null,
     onSale: false,
-    image: "/images/sauce with ingrediants.png",
+    image: "/images/BBQ - bar.jpeg",
     images: [
-      "/images/sauce with ingrediants.png",
+      "/images/BBQ - bar.jpeg",
     ],
     category: "gift",
     spiceLevel: 3,
@@ -87,9 +87,9 @@ export const products: Product[] = [
     price: 9.99,
     salePrice: null,
     onSale: false,
-    image: "/images/flowing sauce 3.jpeg",
+    image: "/images/sauce with ingrediants.png",
     images: [
-      "/images/flowing sauce 3.jpeg",
+      "/images/sauce with ingrediants.png",
     ],
     category: "hot",
     spiceLevel: 3,
