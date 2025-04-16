@@ -3,8 +3,12 @@ import { Link } from "react-router-dom";
 const Logo = () => {
   return (
     <Link to="/" className="flex items-center gap-2">
-      <div className="relative w-10 h-10 overflow-hidden rounded-full bg-red-600 flex items-center justify-center">
-        <span className="text-white font-bold text-xl">SP</span>
+      <div className="relative w-12 h-12 overflow-hidden">
+        <img 
+          src="/images/logo.jpg" 
+          alt="Saucy Palace Logo" 
+          className="w-full h-full object-contain"
+        />
       </div>
       <div className="flex flex-col">
         <span className="font-bold text-xl text-gray-900">Saucy Palace</span>
