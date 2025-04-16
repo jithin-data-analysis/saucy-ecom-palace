@@ -102,19 +102,18 @@ const ProductFilters = ({
         <h3 className="font-medium mb-2">Price Range</h3>
         <Slider
           defaultValue={[30]}
-          max={30}
-          step={5}
-          value={priceRange}
-          onValueChange={setPriceRange}
+          max={2000}
+          step={100}
+          onValueChange={(value) => setPriceRange(value)}
           className="mb-2"
         />
         <div className="flex justify-between">
-          <span className="text-sm">$0</span>
-          <span className="text-sm">$30</span>
+          <span className="text-sm">₹0</span>
+          <span className="text-sm">₹2000</span>
         </div>
-        <p className="text-sm mt-2">
-          {priceRange[0] === 30 ? "All prices" : `Under $${priceRange[0]}`}
-        </p>
+        <div className="text-sm text-gray-600 mt-1">
+          {priceRange[0] === 2000 ? "All prices" : `Under ₹${priceRange[0]}`}
+        </div>
       </div>
       
       {/* Other Filters */}

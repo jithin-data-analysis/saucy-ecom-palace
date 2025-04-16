@@ -4,8 +4,8 @@ export const products: Product[] = [
   {
     id: "1",
     name: "Ghost Pepper Hot Sauce",
-    price: 12.99,
-    salePrice: 9.99,
+    price: 999,
+    salePrice: 799,
     onSale: true,
     image: "/images/hot-sauce.jpg",
     images: [
@@ -26,7 +26,7 @@ export const products: Product[] = [
   {
     id: "2",
     name: "Hickory Smoke BBQ Sauce",
-    price: 10.99,
+    price: 899,
     salePrice: null,
     onSale: false,
     image: "/images/bbq-sauce.webp",
@@ -48,7 +48,7 @@ export const products: Product[] = [
   {
     id: "3",
     name: "Mango Habanero Sauce",
-    price: 11.99,
+    price: 949,
     salePrice: null,
     onSale: false,
     image: "/images/mango_sauce.jpeg",
@@ -70,7 +70,7 @@ export const products: Product[] = [
   {
     id: "4",
     name: "Classic Hot Sauce Collection",
-    price: 24.99,
+    price: 1999,
     salePrice: null,
     onSale: false,
     image: "/images/BBQ - bar.jpg",
@@ -92,7 +92,7 @@ export const products: Product[] = [
   {
     id: "5",
     name: "Garlic Chili Sauce",
-    price: 9.99,
+    price: 799,
     salePrice: null,
     onSale: false,
     image: "/images/sauce with ingrediants.png",
@@ -112,8 +112,8 @@ export const products: Product[] = [
   {
     id: "6",
     name: "Carolina Reaper Extreme",
-    price: 14.99,
-    salePrice: 13.49,
+    price: 1199,
+    salePrice: 1099,
     onSale: true,
     image: "/images/speciality sauce.jpeg",
     images: [
@@ -132,7 +132,7 @@ export const products: Product[] = [
   {
     id: "7",
     name: "Honey Chipotle BBQ",
-    price: 11.99,
+    price: 949,
     salePrice: null,
     onSale: false,
     image: "/images/honey-823614_1280.jpg",
@@ -152,7 +152,7 @@ export const products: Product[] = [
   {
     id: "8",
     name: "Truffle Hot Sauce",
-    price: 18.99,
+    price: 1499,
     salePrice: null,
     onSale: false,
     image: "/images/desert sauce.jpeg",

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Star, ShoppingCart, Heart } from "lucide-react";
@@ -71,14 +70,14 @@ const ProductCard = ({ product }: ProductCardProps) => {
         </div>
         <p className="text-gray-600 mb-4 text-sm line-clamp-2">{product.shortDescription}</p>
         <div className="flex items-center justify-between">
-          <div className="flex items-center">
+          <div className="flex items-baseline gap-2">
             {product.onSale ? (
               <>
-                <span className="text-sauce-red font-bold text-lg">₹{product.salePrice}</span>
-                <span className="text-gray-400 line-through ml-2 text-sm">₹{product.price}</span>
+                <span className="text-lg font-bold text-sauce-red">₹{product.salePrice}</span>
+                <span className="text-sm text-gray-500 line-through">₹{product.price}</span>
               </>
             ) : (
-              <span className="font-bold text-lg">₹{product.price}</span>
+              <span className="text-lg font-bold text-gray-900">₹{product.price}</span>
             )}
           </div>
           <Button 
