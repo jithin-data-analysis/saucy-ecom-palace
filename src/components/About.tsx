@@ -58,8 +58,69 @@ const About: React.FC = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
+      {/* Story Section */}
+      <div className="max-w-4xl mx-auto mb-20">
+        <h1 className="text-4xl font-bold text-center mb-8">Our Story</h1>
+        
+        {/* Hero Image */}
+        <div className="relative h-[400px] rounded-2xl overflow-hidden mb-12">
+          <img 
+            src="/images/sauce-splash.jpg" 
+            alt="Tomato sauce splash"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+            <div className="p-8 text-white">
+              <h2 className="text-3xl font-bold mb-2">Crafting Flavors Since 2025</h2>
+              <p className="text-lg">A journey of passion, tradition, and innovation</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="prose prose-lg max-w-none">
+          <p className="text-lg leading-relaxed mb-6">
+            In the vibrant city of Bangalore, where the aroma of street food and spices fills the air, our founder Rajesh discovered his passion for creating extraordinary sauces. Born into a family of spice merchants in the bustling KR Market, Rajesh grew up surrounded by the vibrant flavors of South Indian cuisine.
+          </p>
+
+          {/* Image Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-12">
+            <div className="rounded-xl overflow-hidden h-[300px]">
+              <img 
+                src="/images/sauce-jars.jpg" 
+                alt="Variety of sauces"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="rounded-xl overflow-hidden h-[300px]">
+              <img 
+                src="/images/sauce-bottles.jpg" 
+                alt="Sauce bottles collection"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
+          <p className="text-lg leading-relaxed mb-6">
+            The journey began in 2025 when Rajesh, after years of experimenting with his grandmother's secret recipes from their family kitchen in Malleshwaram, decided to share his love for bold flavors with the world. What started as a small kitchen experiment in his Bangalore apartment quickly grew into Saucy Palace - a celebration of authentic Indian flavors with a modern twist.
+          </p>
+
+          {/* Featured Image */}
+          <div className="rounded-xl overflow-hidden h-[400px] my-12">
+            <img 
+              src="/images/honey-sauce.jpg" 
+              alt="Premium honey sauce"
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          <p className="text-lg leading-relaxed">
+            Today, Saucy Palace stands as a testament to Rajesh's vision - a place where tradition meets innovation, and where every bottle of sauce tells a story of passion, quality, and the rich flavors of South India.
+          </p>
+        </div>
+      </div>
+
       {/* Values Section */}
-      <div className="text-center mb-16">
+      <div className="text-center mb-20">
         <h2 className="text-3xl font-bold mb-4">Our Values</h2>
         <p className="text-gray-600">At Saucy Palace, these core values guide everything we do.</p>
         
@@ -77,13 +138,13 @@ const About: React.FC = () => {
       </div>
 
       {/* Team Section */}
-      <div className="text-center mb-16">
+      <div className="text-center">
         <h2 className="text-3xl font-bold mb-4">Meet Our Team</h2>
         <p className="text-gray-600 mb-12">The passionate people behind your favorite sauces.</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {team.map((member, index) => (
-            <div key={index} className="text-center">
+            <div key={index} className="text-center bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
               <div className="relative inline-block mb-4">
                 <img 
                   src={member.image} 
@@ -97,22 +158,6 @@ const About: React.FC = () => {
               <p className="text-gray-600 text-sm">{member.description}</p>
             </div>
           ))}
-        </div>
-      </div>
-
-      {/* Story Section */}
-      <div className="max-w-4xl mx-auto">
-        <div className="prose prose-lg">
-          <h2 className="text-3xl font-bold mb-6 text-center">Our Story</h2>
-          <p>
-            In the vibrant city of Bangalore, where the aroma of street food and spices fills the air, our founder Rajesh discovered his passion for creating extraordinary sauces. Born into a family of spice merchants in the bustling KR Market, Rajesh grew up surrounded by the vibrant flavors of South Indian cuisine.
-          </p>
-          <p>
-            The journey began in 2025 when Rajesh, after years of experimenting with his grandmother's secret recipes from their family kitchen in Malleshwaram, decided to share his love for bold flavors with the world. What started as a small kitchen experiment in his Bangalore apartment quickly grew into Saucy Palace - a celebration of authentic Indian flavors with a modern twist.
-          </p>
-          <p>
-            Today, Saucy Palace stands as a testament to Rajesh's vision - a place where tradition meets innovation, and where every bottle of sauce tells a story of passion, quality, and the rich flavors of South India.
-          </p>
         </div>
       </div>
     </div>
