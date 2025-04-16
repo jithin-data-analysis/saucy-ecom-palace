@@ -1,9 +1,9 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ShoppingCart, Menu, X, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import Logo from "./Logo";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,10 +17,7 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-full bg-gradient-sauce animate-wiggle"></div>
-            <span className="text-2xl font-bold text-sauce-red">Saucy Palace</span>
-          </Link>
+          <Logo />
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -39,7 +36,7 @@ const Navbar = () => {
             <Link to="/cart">
               <Button variant="outline" className="rounded-full p-2 relative button-hover">
                 <ShoppingCart />
-                <span className="absolute -top-2 -right-2 bg-sauce-red text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">3</span>
+                <span className="absolute -top-2 -right-2 bg-red-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">3</span>
               </Button>
             </Link>
           </div>
@@ -48,7 +45,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <Link to="/cart" className="mr-4 relative">
               <ShoppingCart />
-              <span className="absolute -top-2 -right-2 bg-sauce-red text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">3</span>
+              <span className="absolute -top-2 -right-2 bg-red-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">3</span>
             </Link>
             <button onClick={toggleMenu} className="text-gray-700">
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
